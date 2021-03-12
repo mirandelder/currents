@@ -56,17 +56,16 @@ button {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(0deg, #58CFFB, #F0FF00);
+  background: linear-gradient(0deg, #00c3ff, #ffff1c);
 }
 
 h2 {
   font-family: sans-serif;
   text-align: center;
   padding-right: 1em;
-  font-size: 0.8em;
-  line-height: 0.5em;
+  font-size: 1.2em;
+  line-height: 1em;
   color: white;
-  text-shadow: 0px 0px 3px #BBBBBB;
 }
 
 /* Moods */
@@ -99,6 +98,7 @@ h2 {
   }
   .seriousKey {
     font-family: serif;
+    font-size: 1.1em;
   }
 
 
