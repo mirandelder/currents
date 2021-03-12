@@ -1,0 +1,454 @@
+:root {
+  --color1: #EE47E1;
+  --color2: #9B175B;
+  --color3: #AC2424;
+  --color4: #FE7000;
+  --color5: #FEC108;
+  --color6: #A4C447;
+  --color7: #02897B;
+  --color8: #225934;
+  --color9: #50C1F8;
+  --color10: #3949AB;
+  --color11: #7E56C2;
+  --color12: #842784;
+  --color13: #815017;
+}
+
+.content{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: max-content;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2.5em;
+}
+
+h1 {
+  padding: 12px 25px;
+  font-family: sans-serif;
+}
+
+button {
+  border-radius: 1000px;
+  display: inline-block;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 10px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(0deg, #58CFFB, #F0FF00);
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  padding-right: 1em;
+  font-size: 0.8em;
+  line-height: 0.5em;
+  color: white;
+  text-shadow: 0px 0px 3px #BBBBBB;
+}
+
+/* Moods */
+
+  /* Silly / Playful / Party / Energetic */
+  .sillyStyle {
+     text-decoration-line: underline;
+     text-decoration-thickness: 0.12em;
+     text-decoration-style: wavy;
+   }
+   .sillyKey {
+      text-decoration-line: underline;
+      text-decoration-thickness: 0.05em;
+      text-decoration-style: wavy;
+    }
+
+  /* Chill / Relax */
+  .chillStyle {
+    letter-spacing: 0.15em;
+  }
+  .chillKey {
+    letter-spacing: 0.12em;
+  }
+
+  /* Education / Serious / Explore */
+  .seriousStyle h1 {
+    font-family: serif;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+  }
+  .seriousKey {
+    font-family: serif;
+  }
+
+
+/*--------- 1. TV Show ---------*/
+.filledShows {
+  background-color: var(--color1) !important;
+  color: white !important;
+  border: 3px solid var(--color1) !important;
+}
+
+#shows {
+  background-color: white;
+  color: var(--color1);
+  border: 3px solid var(--color1);
+}
+
+#shows:hover {
+  background-color: var(--color1);
+  color: white;
+  border: 3px solid var(--color1);
+}
+
+.show {
+  background-color: white;
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 2. Movie ---------*/
+.filledMovies {
+  background-color: var(--color2) !important;
+  color: white !important;
+  border: 3px solid var(--color2) !important;
+}
+
+#movies {
+  background-color: white;
+  color: var(--color2);
+  border: 3px solid var(--color2);
+}
+
+#movies:hover {
+  background-color: var(--color2);
+  color: white;
+  border: 3px solid var(--color2);
+}
+
+.movie {
+  background-color: white;
+  color: var(--color2);
+  border: 3px solid var(--color2);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 3. Musicals ---------*/
+.filledMusicals {
+  background-color: var(--color3) !important;
+  color: white !important;
+  border: 3px solid var(--color3) !important;
+}
+
+#musicals {
+  background-color: white;
+  color: var(--color3);
+  border: 3px solid var(--color3);
+}
+
+#musicals:hover {
+  background-color: var(--color3);
+  color: white;
+  border: 3px solid var(--color3);
+}
+
+.musical {
+  background-color: white;
+  color: var(--color3);
+  border: 3px solid var(--color3);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 4. Youtubers ---------*/
+.filledYoutubers {
+  background-color: var(--color4) !important;
+  color: white !important;
+  border: 3px solid var(--color4) !important;
+}
+
+#youtubers {
+  background-color: white;
+  color: var(--color4);
+  border: 3px solid var(--color4);
+}
+
+#youtubers:hover {
+  background-color: var(--color4);
+  color: white;
+  border: 3px solid var(--color4);
+}
+
+.youtuber {
+  background-color: white;
+  color: var(--color4);
+  border: 3px solid var(--color4);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 5. Musicians ---------*/
+.filledMusicians {
+  background-color: var(--color5) !important;
+  color: white !important;
+  border: 3px solid var(--color5) !important;
+}
+
+#musicians {
+  background-color: white;
+  color: var(--color5);
+  border: 3px solid var(--color5);
+}
+
+#musicians:hover {
+  background-color: var(--color5);
+  color: white;
+  border: 3px solid var(--color5);
+}
+
+.musician {
+  background-color: white;
+  color: var(--color5);
+  border: 3px solid var(--color5);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 6. Artists ---------*/
+.filledArtists {
+  background-color: var(--color6) !important;
+  color: white !important;
+  border: 3px solid var(--color6) !important;
+}
+
+#artists {
+  background-color: white;
+  color: var(--color6);
+  border: 3px solid var(--color6);
+}
+
+#artists:hover {
+  background-color: var(--color6);
+  color: white;
+  border: 3px solid var(--color6);
+}
+
+.artist {
+  background-color: white;
+  color: var(--color6);
+  border: 3px solid var(--color6);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 7. Toys / Games ---------*/
+.filledToys {
+  background-color: var(--color7) !important;
+  color: white !important;
+  border: 3px solid var(--color7) !important;
+}
+
+#toys {
+  background-color: white;
+  color: var(--color7);
+  border: 3px solid var(--color7);
+}
+
+#toys:hover {
+  background-color: var(--color7);
+  color: white;
+  border: 3px solid var(--color7);
+}
+
+.toy {
+  background-color: white;
+  color: var(--color7);
+  border: 3px solid var(--color7);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 8. Digital ---------*/
+.filledDigitals {
+  background-color: var(--color8) !important;
+  color: white !important;
+  border: 3px solid var(--color8) !important;
+}
+
+#digitals {
+  background-color: white;
+  color: var(--color8);
+  border: 3px solid var(--color8);
+}
+
+#digitals:hover {
+  background-color: var(--color8);
+  color: white;
+  border: 3px solid var(--color8);
+}
+
+.digital {
+  background-color: white;
+  color: var(--color8);
+  border: 3px solid var(--color8);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 9. People ---------*/
+.filledPeople {
+  background-color: var(--color9) !important;
+  color: white !important;
+  border: 3px solid var(--color9) !important;
+}
+
+#people {
+  background-color: white;
+  color: var(--color9);
+  border: 3px solid var(--color9);
+}
+
+#people:hover {
+  background-color: var(--color9);
+  color: white;
+  border: 3px solid var(--color9);
+}
+
+.person {
+  background-color: white;
+  color: var(--color9);
+  border: 3px solid var(--color9);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 10. BOOKS ---------*/
+.filledBooks {
+  background-color: var(--color10) !important;
+  color: white !important;
+  border: 3px solid var(--color10) !important;
+}
+
+#books {
+  background-color: white;
+  color: var(--color10);
+  border: 3px solid var(--color10);
+}
+
+#books:hover {
+  background-color: var(--color10);
+  color: white;
+  border: 3px solid var(--color10);
+}
+
+.book {
+  background-color: white;
+  color: var(--color10);
+  border: 3px solid var(--color10);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 11. Objects ---------*/
+.filledObjects {
+  background-color: var(--color11) !important;
+  color: white !important;
+  border: 3px solid var(--color11) !important;
+}
+
+#objects {
+  background-color: white;
+  color: var(--color11);
+  border: 3px solid var(--color11);
+}
+
+#objects:hover {
+  background-color: var(--color11);
+  color: white;
+  border: 3px solid var(--color11);
+}
+
+.object {
+  background-color: white;
+  color: var(--color11);
+  border: 3px solid var(--color11);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 12. Places ---------*/
+.filledPlaces {
+  background-color: var(--color12) !important;
+  color: white !important;
+  border: 3px solid var(--color12) !important;
+}
+
+#places {
+  background-color: white;
+  color: var(--color12);
+  border: 3px solid var(--color12);
+}
+
+#places:hover {
+  background-color: var(--color12);
+  color: white;
+  border: 3px solid var(--color12);
+}
+
+.place {
+  background-color: white;
+  color: var(--color12);
+  border: 3px solid var(--color12);
+  display: none;
+  cursor: default;
+}
+
+/*--------- 13. Visual Language ---------*/
+.filledLanguages {
+  background-color: var(--color13) !important;
+  color: white !important;
+  border: 3px solid var(--color13) !important;
+}
+
+#languages {
+  background-color: white;
+  color: var(--color13);
+  border: 3px solid var(--color13);
+}
+
+#languages:hover {
+  background-color: var(--color13);
+  color: white;
+  border: 3px solid var(--color13);
+}
+
+.language {
+  background-color: white;
+  color: var(--color13);
+  border: 3px solid var(--color13);
+  display: none;
+  cursor: default;
+}
