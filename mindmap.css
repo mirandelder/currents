@@ -111,13 +111,13 @@ h2 {
 
 #shows {
   background-color: white;
-  color: var(--color1);
-  border: 3px solid var(--color1);
+  color: black;
+  border: 3px solid black;
 }
 
 #shows:hover {
-  background-color: var(--color1);
-  color: white;
+  background-color: white;
+  color: var(--color1);
   border: 3px solid var(--color1);
 }
 
@@ -138,13 +138,13 @@ h2 {
 
 #movies {
   background-color: white;
-  color: var(--color2);
-  border: 3px solid var(--color2);
+  color: black;
+  border: 3px solid black;
 }
 
 #movies:hover {
-  background-color: var(--color2);
-  color: white;
+  background-color: white;
+  color: var(--color2);
   border: 3px solid var(--color2);
 }
 
@@ -165,13 +165,13 @@ h2 {
 
 #musicals {
   background-color: white;
-  color: var(--color3);
-  border: 3px solid var(--color3);
+  color: black;
+  border: 3px solid black;
 }
 
 #musicals:hover {
-  background-color: var(--color3);
-  color: white;
+  background-color: white;
+  color: var(--color3);
   border: 3px solid var(--color3);
 }
 
@@ -192,13 +192,13 @@ h2 {
 
 #youtubers {
   background-color: white;
-  color: var(--color4);
-  border: 3px solid var(--color4);
+  color: black;
+  border: 3px solid black;
 }
 
 #youtubers:hover {
-  background-color: var(--color4);
-  color: white;
+  background-color: white;
+  color: var(--color4);
   border: 3px solid var(--color4);
 }
 
@@ -219,13 +219,13 @@ h2 {
 
 #musicians {
   background-color: white;
-  color: var(--color5);
-  border: 3px solid var(--color5);
+  color: black;
+  border: 3px solid black;
 }
 
 #musicians:hover {
-  background-color: var(--color5);
-  color: white;
+  background-color: white;
+  color: var(--color5);
   border: 3px solid var(--color5);
 }
 
@@ -246,13 +246,13 @@ h2 {
 
 #artists {
   background-color: white;
-  color: var(--color6);
-  border: 3px solid var(--color6);
+  color: black;
+  border: 3px solid black;
 }
 
 #artists:hover {
-  background-color: var(--color6);
-  color: white;
+  background-color: white;
+  color: var(--color6);
   border: 3px solid var(--color6);
 }
 
@@ -273,13 +273,13 @@ h2 {
 
 #toys {
   background-color: white;
-  color: var(--color7);
-  border: 3px solid var(--color7);
+  color: black;
+  border: 3px solid black;
 }
 
 #toys:hover {
-  background-color: var(--color7);
-  color: white;
+  background-color: white;
+  color: var(--color7);
   border: 3px solid var(--color7);
 }
 
@@ -300,13 +300,13 @@ h2 {
 
 #digitals {
   background-color: white;
-  color: var(--color8);
-  border: 3px solid var(--color8);
+  color: black;
+  border: 3px solid black;
 }
 
 #digitals:hover {
-  background-color: var(--color8);
-  color: white;
+  background-color: white;
+  color: var(--color8);
   border: 3px solid var(--color8);
 }
 
@@ -327,13 +327,13 @@ h2 {
 
 #people {
   background-color: white;
-  color: var(--color9);
-  border: 3px solid var(--color9);
+  color: black;
+  border: 3px solid black;
 }
 
 #people:hover {
-  background-color: var(--color9);
-  color: white;
+  background-color: white;
+  color: var(--color9);
   border: 3px solid var(--color9);
 }
 
@@ -354,13 +354,13 @@ h2 {
 
 #books {
   background-color: white;
-  color: var(--color10);
-  border: 3px solid var(--color10);
+  color: black;
+  border: 3px solid black;
 }
 
 #books:hover {
-  background-color: var(--color10);
-  color: white;
+  background-color: white;
+  color: var(--color10);
   border: 3px solid var(--color10);
 }
 
@@ -381,13 +381,13 @@ h2 {
 
 #objects {
   background-color: white;
-  color: var(--color11);
-  border: 3px solid var(--color11);
+  color: black;
+  border: 3px solid black;
 }
 
 #objects:hover {
-  background-color: var(--color11);
-  color: white;
+  background-color: white;
+  color: var(--color11);
   border: 3px solid var(--color11);
 }
 
@@ -408,13 +408,13 @@ h2 {
 
 #places {
   background-color: white;
-  color: var(--color12);
-  border: 3px solid var(--color12);
+  color: black;
+  border: 3px solid black;
 }
 
 #places:hover {
-  background-color: var(--color12);
-  color: white;
+  background-color: white;
+  color: var(--color12);
   border: 3px solid var(--color12);
 }
 
@@ -435,13 +435,13 @@ h2 {
 
 #languages {
   background-color: white;
-  color: var(--color13);
-  border: 3px solid var(--color13);
+  color: black;
+  border: 3px solid black;
 }
 
 #languages:hover {
-  background-color: var(--color13);
-  color: white;
+  background-color: white;
+  color: var(--color13);
   border: 3px solid var(--color13);
 }
 
